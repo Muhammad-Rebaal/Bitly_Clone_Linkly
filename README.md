@@ -26,4 +26,4 @@ Easily add and customize links through the user-friendly interface, ensuring a h
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/linkly.git
+   git clone https://github.com/Muhammad-Rebaal/linkly.git
