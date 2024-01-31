@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-l6&5z4uofs#d9zy0$n^ba#a)3865$eedr+4ymc+)l6vz70cnwg
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://django-linkly.azurewebsites.net/']
+ALLOWED_HOSTS = ['https://django-linkly.azurewebsites.net']
 
 
 # Application definition
