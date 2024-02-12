@@ -4,7 +4,7 @@
 echo "BUILD START"
 
 # Activate virtual environment
-source /path/to/your/venv/bin/activate
+source /env/Scripts/activate
 
 # Install dependencies from requirements.txt
 python3 -m pip install -r requirements.txt
