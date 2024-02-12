@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/795941df-87a0-4ca6-9d1e-b5e3faba902b/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/linkly",
+    "appService.deploySubpath": "."
+}
