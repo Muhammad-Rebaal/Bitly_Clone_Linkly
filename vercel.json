@@ -10,5 +10,7 @@
       "src": "/(.*)",
       "dest": "django_app_name/wsgi.py"
     }
-  ]
+  ],
+
+  "rewrites": [{ "source": "/( .* )", "destination": "/" }]
 }
