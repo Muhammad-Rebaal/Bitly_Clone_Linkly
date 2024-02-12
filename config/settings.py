@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-l6&5z4uofs#d9zy0$n^ba#a)3865$eedr+4ymc+)l6vz70cnwg
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://bitly-clone-linkly.vercel.app/']
+ALLOWED_HOSTS = ['.vercel.app', '.now.sh']
 
 # Application definition
 
