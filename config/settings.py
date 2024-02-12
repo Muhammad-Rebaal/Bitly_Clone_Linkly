@@ -131,10 +131,4 @@ CRISPY_ALLOWED_TEMPLATE_PACKS = "tailwind"
 CRISPY_TEMPLATE_PACK = "tailwind"
 
 
-import os
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
-STATIC_URL = '/static/'  # Corrected STATIC_URL format
-STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)  # Added parentheses to make it a tuple
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')
