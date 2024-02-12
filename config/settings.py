@@ -25,8 +25,7 @@ SECRET_KEY = "django-insecure-l6&5z4uofs#d9zy0$n^ba#a)3865$eedr+4ymc+)l6vz70cnwg
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://django-linkly.azurewebsites.net']
-
+ALLOWED_HOSTS = ['.vercel.app' , '.now.sh']
 
 # Application definition
 
@@ -130,3 +129,12 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 CRISPY_ALLOWED_TEMPLATE_PACKS = "tailwind"
 
 CRISPY_TEMPLATE_PACK = "tailwind"
+
+
+import os
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+STATIC_URL = '/static/'  # Corrected STATIC_URL format
+STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)  # Added parentheses to make it a tuple
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')
