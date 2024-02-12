@@ -10,18 +10,10 @@
         }
       },
       {
-        "src": "build_files.sh",
-        "use": "@vercel/static-build",
-        "config": {
-          "distDir": "staticfiles_build"
-        }
+        "src": "build_files.sh"
       }
     ],
     "routes": [
-      {
-        "src": "/static/(.*)",
-        "dest": "/static/$1"
-      },
       {
         "src": "/(.*)",
         "dest": "config/wsgi.py"
